@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Windows.Forms;
 
 namespace BaseSim2021
 {
@@ -248,23 +247,15 @@ namespace BaseSim2021
         /// <param name="indexedValue">The value responsible or null for debt</param>
         public static void LoseDialog(IndexedValue indexedValue)
         {
-            if (indexedValue == null)
-            {
-                MessageBox.Show("Partie perdue : dette insurmontable.");
-            }
-            else
-            {
-                MessageBox.Show("Partie perdue :"
-                    + indexedValue.CompletePresentation());
-            }
-            nextButton.Enabled = false;
+            theView.LoseDialog(indexedValue);
+            theView.Refresh();
         }
         /// <summary>
         /// Method called whenever the game is won
         /// </summary>
         public static void WinDialog()
         {
-            theView.WriteLine("Partie gagnée.");
+            theView.WinDialog();
             theView.Refresh();
         }
         /// <summary>
