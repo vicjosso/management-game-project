@@ -40,10 +40,10 @@ namespace BaseSim2021
             // 
             // inputTextBox
             // 
-            this.inputTextBox.Location = new System.Drawing.Point(106, 303);
-            this.inputTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.inputTextBox.Location = new System.Drawing.Point(11, 400);
+            this.inputTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.inputTextBox.Name = "inputTextBox";
-            this.inputTextBox.Size = new System.Drawing.Size(459, 20);
+            this.inputTextBox.Size = new System.Drawing.Size(124, 20);
             this.inputTextBox.TabIndex = 0;
             this.inputTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.InputTextBox_KeyDown);
             // 
@@ -51,17 +51,17 @@ namespace BaseSim2021
             // 
             this.outputListBox.FormattingEnabled = true;
             this.outputListBox.HorizontalScrollbar = true;
-            this.outputListBox.Location = new System.Drawing.Point(6, 6);
-            this.outputListBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.outputListBox.Location = new System.Drawing.Point(11, 199);
+            this.outputListBox.Margin = new System.Windows.Forms.Padding(2);
             this.outputListBox.Name = "outputListBox";
-            this.outputListBox.Size = new System.Drawing.Size(1005, 277);
+            this.outputListBox.Size = new System.Drawing.Size(99, 186);
             this.outputListBox.TabIndex = 1;
             // 
             // diffLabel
             // 
             this.diffLabel.AutoSize = true;
             this.diffLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.diffLabel.Location = new System.Drawing.Point(42, 360);
+            this.diffLabel.Location = new System.Drawing.Point(33, 9);
             this.diffLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.diffLabel.Name = "diffLabel";
             this.diffLabel.Size = new System.Drawing.Size(22, 13);
@@ -72,7 +72,7 @@ namespace BaseSim2021
             // 
             this.turnLabel.AutoSize = true;
             this.turnLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.turnLabel.Location = new System.Drawing.Point(200, 360);
+            this.turnLabel.Location = new System.Drawing.Point(191, 9);
             this.turnLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.turnLabel.Name = "turnLabel";
             this.turnLabel.Size = new System.Drawing.Size(19, 13);
@@ -83,7 +83,7 @@ namespace BaseSim2021
             // 
             this.moneyLabel.AutoSize = true;
             this.moneyLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.moneyLabel.Location = new System.Drawing.Point(452, 360);
+            this.moneyLabel.Location = new System.Drawing.Point(443, 9);
             this.moneyLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.moneyLabel.Name = "moneyLabel";
             this.moneyLabel.Size = new System.Drawing.Size(16, 13);
@@ -94,7 +94,7 @@ namespace BaseSim2021
             // 
             this.gloryLabel.AutoSize = true;
             this.gloryLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.gloryLabel.Location = new System.Drawing.Point(682, 360);
+            this.gloryLabel.Location = new System.Drawing.Point(673, 9);
             this.gloryLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.gloryLabel.Name = "gloryLabel";
             this.gloryLabel.Size = new System.Drawing.Size(16, 13);
@@ -103,8 +103,8 @@ namespace BaseSim2021
             // 
             // nextButton
             // 
-            this.nextButton.Location = new System.Drawing.Point(874, 360);
-            this.nextButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.nextButton.Location = new System.Drawing.Point(865, 9);
+            this.nextButton.Margin = new System.Windows.Forms.Padding(2);
             this.nextButton.Name = "nextButton";
             this.nextButton.Size = new System.Drawing.Size(80, 21);
             this.nextButton.TabIndex = 6;
@@ -126,7 +126,7 @@ namespace BaseSim2021
             this.Controls.Add(this.outputListBox);
             this.Controls.Add(this.inputTextBox);
             this.DoubleBuffered = true;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "GameView";
             this.Text = "Fenêtre Principale";
             this.Load += new System.EventHandler(this.GameView_Load);

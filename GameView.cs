@@ -57,12 +57,14 @@ namespace BaseSim2021
 
         private void GameView_Paint(object sender, PaintEventArgs e)
         {
+
+
             diffLabel.Text = "Difficulté : " + theWorld.TheDifficulty;
             turnLabel.Text = "Tour " + theWorld.Turns;
             moneyLabel.Text = "Trésor : " + theWorld.Money + " pièces d'or";
             gloryLabel.Text = "Gloire : " + theWorld.Glory;
             
-            nextButton.Visible = false;
+            nextButton.Visible = true;
         }
         #endregion
 
