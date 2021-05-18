@@ -65,26 +65,44 @@ namespace BaseSim2021
             nextButton.Visible = true;
 
             //rajouter le draw des indexed values
-            //barre
-            Rectangle barre = new Rectangle(new Point(0, 0), new Size(Width, Height / 20));
-            e.Graphics.DrawRectangle(new Pen(Color.Black), barre);
             
-            //benef
-            Rectangle benef = new Rectangle(new Point(0, Height / 20), new Size(Width, Height/3 - Height/20));
-            e.Graphics.DrawRectangle(new Pen(Color.Black), benef);
-            
-            //3 trucs
-            Rectangle trucs1 = new Rectangle(new Point(0, Height/3), new Size(Width/3, Height / 3 - Height / 20));
-            e.Graphics.DrawRectangle(new Pen(Color.Black), trucs1);
-            Rectangle trucs2 = new Rectangle(new Point(Width/3, Height / 3), new Size(Width/3, Height / 3 - Height / 20));
-            e.Graphics.DrawRectangle(new Pen(Color.Black), trucs2);
-            Rectangle trucs3 = new Rectangle(new Point(Width/3+ Width / 3, Height / 3), new Size(Width/3, Height / 3 - Height / 20));
-            e.Graphics.DrawRectangle(new Pen(Color.Black), trucs3);
+            //test draw values
+            //benef et pb
+            for(int i = 0; i<=9; i++)
+            {
+                e.Graphics.DrawRectangle(new Pen(Color.Black), new Rectangle(new Point((Width/9)*i, Height/20), new Size(Width/9, Height/6-Height/40)));
+            }
+            for (int i = 0; i <= 8; i++)
+            {
+                e.Graphics.DrawRectangle(new Pen(Color.Black), new Rectangle(new Point((Width / 8) * i, Height / 6 + Height / 40), new Size(Width / 8, Height / 6 - Height / 40)));
+            }
 
-            //poli
-            Rectangle poli = new Rectangle(new Point(0, Height / 3 + Height / 3 - Height / 20), new Size(Width, Height / 3 - Height / 20));
-            e.Graphics.DrawRectangle(new Pen(Color.Black), poli);
-            
+            //indicateur
+            for (int i = 0; i <= 1; i++)
+            {
+                e.Graphics.DrawRectangle(new Pen(Color.Black), new Rectangle(new Point((Width / 6) * i, (Height / 3)), new Size(Width / 6, Height / 6 - Height / 40)));
+                e.Graphics.DrawRectangle(new Pen(Color.Black), new Rectangle(new Point((Width / 6) * (4+i), (Height / 3)), new Size(Width / 6, Height / 6 - Height / 40)));
+            }
+            e.Graphics.DrawRectangle(new Pen(Color.Black), new Rectangle(new Point( 0 , (Height / 3)+(Height/6) - Height / 40), new Size(Width / 3, Height / 6 - Height / 40)));
+            e.Graphics.DrawRectangle(new Pen(Color.Black), new Rectangle(new Point((Width / 3)*2, (Height / 3) + (Height / 6) - Height / 40), new Size(Width / 3, Height / 6 - Height / 40)));
+
+            //groupes
+            for (int i = 0; i <= 1; i++)
+            {
+                e.Graphics.DrawRectangle(new Pen(Color.Black), new Rectangle(new Point((Width / 6) * (2+i), (Height / 3)), new Size(Width / 6, Height / 6 - Height / 40)));
+            }
+            e.Graphics.DrawRectangle(new Pen(Color.Black), new Rectangle(new Point( Width / 3 , (Height / 3) + (Height / 6) - Height / 40), new Size(Width / 3, Height / 6 - Height / 40)));
+
+            //politiques
+            for (int i = 0; i <= 11; i++)
+            {
+                e.Graphics.DrawRectangle(new Pen(Color.Black), new Rectangle(new Point((Width / 11) * i, (Height / 3)*2 - Height / 20), new Size(Width / 11, Height / 6)));
+            }
+            for (int i = 0; i <= 10; i++)
+            {
+                e.Graphics.DrawRectangle(new Pen(Color.Black), new Rectangle(new Point((Width / 10) * i, (Height / 3) * 2 + Height/6 - Height / 20), new Size(Width / 10, Height / 6)));
+            }
+
         }
 
         public void LoseDialog(IndexedValue indexedValue)
