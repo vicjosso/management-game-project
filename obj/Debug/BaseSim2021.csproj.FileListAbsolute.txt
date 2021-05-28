@@ -20,6 +20,28 @@
 \\iut.bx1\Etudiants\Home\vjosso\Documents\IUT\S2\IHM\Projet_IHM_Victor-JOSSO\BaseSim2021\obj\Debug\BaseSim2021.csproj.CoreCompileInputs.cache
 \\iut.bx1\Etudiants\Home\vjosso\Documents\IUT\S2\IHM\Projet_IHM_Victor-JOSSO\BaseSim2021\obj\Debug\BaseSim2021.exe
 \\iut.bx1\Etudiants\Home\vjosso\Documents\IUT\S2\IHM\Projet_IHM_Victor-JOSSO\BaseSim2021\obj\Debug\BaseSim2021.pdb
+C:\Users\Victor Josso\Documents\Etudes\IUT\S2\IHM\Projet_IHM_Victor-JOSSO\BaseSim2021\bin\Debug\BaseSim2021.exe.config
+C:\Users\Victor Josso\Documents\Etudes\IUT\S2\IHM\Projet_IHM_Victor-JOSSO\BaseSim2021\bin\Debug\BaseSim2021.exe
+C:\Users\Victor Josso\Documents\Etudes\IUT\S2\IHM\Projet_IHM_Victor-JOSSO\BaseSim2021\bin\Debug\BaseSim2021.pdb
+C:\Users\Victor Josso\Documents\Etudes\IUT\S2\IHM\Projet_IHM_Victor-JOSSO\BaseSim2021\obj\Debug\BaseSim2021.csprojAssemblyReference.cache
+C:\Users\Victor Josso\Documents\Etudes\IUT\S2\IHM\Projet_IHM_Victor-JOSSO\BaseSim2021\obj\Debug\BaseSim2021.DifficultyView.resources
+C:\Users\Victor Josso\Documents\Etudes\IUT\S2\IHM\Projet_IHM_Victor-JOSSO\BaseSim2021\obj\Debug\BaseSim2021.GameView.resources
+C:\Users\Victor Josso\Documents\Etudes\IUT\S2\IHM\Projet_IHM_Victor-JOSSO\BaseSim2021\obj\Debug\BaseSim2021.Properties.Resources.resources
+C:\Users\Victor Josso\Documents\Etudes\IUT\S2\IHM\Projet_IHM_Victor-JOSSO\BaseSim2021\obj\Debug\BaseSim2021.csproj.GenerateResource.cache
+C:\Users\Victor Josso\Documents\Etudes\IUT\S2\IHM\Projet_IHM_Victor-JOSSO\BaseSim2021\obj\Debug\BaseSim2021.csproj.CoreCompileInputs.cache
+C:\Users\Victor Josso\Documents\Etudes\IUT\S2\IHM\Projet_IHM_Victor-JOSSO\BaseSim2021\obj\Debug\BaseSim2021.exe
+C:\Users\Victor Josso\Documents\Etudes\IUT\S2\IHM\Projet_IHM_Victor-JOSSO\BaseSim2021\obj\Debug\BaseSim2021.pdb
+C:\Users\Victor Josso\Documents\GitHub\basesim2021_project\basesim2021\bin\Debug\BaseSim2021.exe.config
+C:\Users\Victor Josso\Documents\GitHub\basesim2021_project\basesim2021\bin\Debug\BaseSim2021.exe
+C:\Users\Victor Josso\Documents\GitHub\basesim2021_project\basesim2021\bin\Debug\BaseSim2021.pdb
+C:\Users\Victor Josso\Documents\GitHub\basesim2021_project\basesim2021\obj\Debug\BaseSim2021.csprojAssemblyReference.cache
+C:\Users\Victor Josso\Documents\GitHub\basesim2021_project\basesim2021\obj\Debug\BaseSim2021.DifficultyView.resources
+C:\Users\Victor Josso\Documents\GitHub\basesim2021_project\basesim2021\obj\Debug\BaseSim2021.GameView.resources
+C:\Users\Victor Josso\Documents\GitHub\basesim2021_project\basesim2021\obj\Debug\BaseSim2021.Properties.Resources.resources
+C:\Users\Victor Josso\Documents\GitHub\basesim2021_project\basesim2021\obj\Debug\BaseSim2021.csproj.GenerateResource.cache
+C:\Users\Victor Josso\Documents\GitHub\basesim2021_project\basesim2021\obj\Debug\BaseSim2021.csproj.CoreCompileInputs.cache
+C:\Users\Victor Josso\Documents\GitHub\basesim2021_project\basesim2021\obj\Debug\BaseSim2021.exe
+C:\Users\Victor Josso\Documents\GitHub\basesim2021_project\basesim2021\obj\Debug\BaseSim2021.pdb
 \\iut.bx1\Etudiants\Home\vjosso\Documents\IUT\S2\Projet\Projet_IHM_Victor-JOSSO\BaseSim2021_project\basesim2021\bin\Debug\BaseSim2021.exe.config
 \\iut.bx1\Etudiants\Home\vjosso\Documents\IUT\S2\Projet\Projet_IHM_Victor-JOSSO\BaseSim2021_project\basesim2021\bin\Debug\BaseSim2021.exe
 \\iut.bx1\Etudiants\Home\vjosso\Documents\IUT\S2\Projet\Projet_IHM_Victor-JOSSO\BaseSim2021_project\basesim2021\bin\Debug\BaseSim2021.pdb

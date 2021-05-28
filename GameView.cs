@@ -57,14 +57,29 @@ namespace BaseSim2021
 
         private void GameView_Paint(object sender, PaintEventArgs e)
         {
-
-
             diffLabel.Text = "Difficulté : " + theWorld.TheDifficulty;
             turnLabel.Text = "Tour " + theWorld.Turns;
             moneyLabel.Text = "Trésor : " + theWorld.Money + " pièces d'or";
             gloryLabel.Text = "Gloire : " + theWorld.Glory;
             
             nextButton.Visible = true;
+
+            IndexedValueView.Draw(e, Width, Height);
+
+        }
+
+        public void LoseDialog(IndexedValue indexedValue)
+        {
+            if (indexedValue == null) { MessageBox.Show("Partie perdue : dette insurmontable."); }
+            else { MessageBox.Show("Partie perdue :" +
+                indexedValue.CompletePresentation()); }
+            nextButton.Enabled = false;
+        }
+
+        public void WinDialog()
+        {
+            MessageBox.Show("Partie Gagné");
+            nextButton.Enabled = false;
         }
         #endregion
 
@@ -76,6 +91,16 @@ namespace BaseSim2021
         private void GameView_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void outputListBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void GameView_ClientSizeChanged(object sender, EventArgs e)
+        {
+            Refresh();
         }
     }
 }
